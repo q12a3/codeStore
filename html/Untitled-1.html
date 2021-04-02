@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .auto{
+        width: 600px;
+        height:200px;
+        border: 10px blue double;
+   
+    }
+    .inner{
+       width: 200px;
+       height:200px;
+       background-color: aquamarine;
+       margin-left:auto;
+       border-left-width:1px; 
+       padding-left:100px;
+       padding-right:100px ;
+       border-right: 150px;
+       margin-right:auto;
+       
+    }
+        /* 
+        如果将一个宽度和一个外边距设置为auto 则宽度会被调整为最大。
+            设置为auto的外边距就会被调整为0.
+        如果将三个值都设置为auto，则外边距都是0，宽度最大
+        如果将两个外边距设置为auto，宽度值固定则会将外边距
+        设置为相同的值。
+            所以可以利用这个特点来使一个元素在其父元素中水平居中。
+            示例：widthxxxpx；
+                margin：0 auto；
+         */
+    .box:hover{
+        color: aqua;
+        height:600px;
+        width: 100px;
+        /*background-color:#fac;*/
+        font-size: 50px;
+        background-image:url("../images/1.jpg");
+        background-size:100% 100%;
+
+    }
+    img {
+       width: 100px;
+       height: 200px;
+    }
+    </style>
+</head>
+<body>
+    <div class="auto">
+        <div class="inner"></div>
+    </div>
+    <br>
+    <br>
+     <div class="box">上善若水</div>
+     <div class="box1"></div>
+     <img src="../images\1.jpg">
+</body>
+</html>
