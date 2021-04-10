@@ -4,6 +4,7 @@
 }
 a{
     text-decoration: none
+    /* 清除下划线 */
 }
 ul,li{
     list-style: none
@@ -13,8 +14,7 @@ html,body{
     font-size: 12px;
 }
 .main{
-    height: 200px;
+   
     width: 1200px;
     margin: 0 auto;
-    border: 1px solid;
 }

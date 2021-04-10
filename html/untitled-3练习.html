@@ -6,17 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        .main{
+            width: 1200px;
+            margin: 0 auto;
+            
+        }
     .box1{
-        width:auto;
         height: 350px;
         overflow: hidden;
         margin-top: -10px;
     }
     .box3{
         width: auto;
-        /* height: 450px; */
+        height: 600px;
         background-color: rgb(228, 233, 230);
         overflow: hidden;
+
     }
     .box4{
         height: 500px;
@@ -56,19 +61,31 @@
         width: 200px;
     }
     .boxq{
-        background-color: azure;
+        /* background-color: azure; */
         margin-top: 50px;
-        width: 200px;
+        width:450px ;
         margin-right: auto;
         margin-left: auto;
     }
     .boxa{
-        width: 50px;
+        width: 100px;
+        border: 1px rgb(0,0,0) solid;
+
+    }
+    .img1{
+        width: 100px;
+        right: 50px;
+        background-image:url(../images/2.png);
+        background-repeat: no-repeat;
+        background-position: top;
+
     }
     .boxa:hover{
         margin-left: auto;
         margin-right: auto;
-        background-color: blue
+        background-color: blue;
+        background-image: url(../images/3.png);
+        
 
     }
     .box5{
@@ -76,9 +93,11 @@
         height: 350px;
         overflow: hidden;
     }
+    
    </style>
 </head>
 <body>
+    <div class="main">
     <div class="box1">
       <div class="boxx">我们的成绩  </div>
       <div class="boxc">2018年1月1日至2018年12月30日，
@@ -99,6 +118,7 @@
             </div> 
             <div class="boxq">
                 <span class="boxa">
+                   <div class="img1"></div>
                    <h3>十一年美签经验</h3>
                     <p>2006年开始办理美国签证至今，
                     积累了丰富的首签和拒签再签实用经验。
@@ -116,7 +136,7 @@
                         并进行相关处理。
                     </p>
                 </span>
-                <spana class="boxa">
+                <span class="boxa">
                    <h3>精益求精的态度</h3>
                     <p>死磕完美材料，对签证申请流程中的细节一丝不苟，
                         力争最高通过率。
@@ -140,6 +160,7 @@
             <div class="boxc">中岚签证帮您关注最新名美
                 国签证相关咨询与新闻。
             </div> 
+    </div>
     </div>
 </body>
 </html>
